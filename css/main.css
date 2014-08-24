@@ -1,0 +1,169 @@
+html,body {
+    background: url(images/bg-large.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+
+	font-size: 16px;
+}
+
+
+#top_spacer {
+	height: 48%;
+	width: 100%;
+	margin: auto;
+	position: aboslute;
+	top: 0; left: 0;
+	display: block;
+}
+
+#content {
+	width: 100%;
+	
+}
+
+#quotebox {
+	padding-top: 8px;
+	max-width: 75%;
+	margin: auto;
+	text-align: center;
+}
+	#quotebox_line {
+		margin: auto;
+		margin-top: 5px;
+		max-width: 50%;
+		height: 1px;
+		border-bottom: 2px solid #C6C6C6;
+	}
+	
+h1 {
+	padding: 0px;
+	margin: 0px;
+	color: #C6C6C6;
+	font-family:'Blue Highway D Type';
+		font-weight:normal;
+		font-size: 2.625em;
+	line-height: 100%;
+}
+	.uc {
+		text-transform:uppercase;
+	}
+
+h2 {
+	padding: 0px;
+	margin: 0px;
+	color: #FFFFFF;
+	font-family:'Blue Highway D Type';
+		font-weight:normal;
+		font-size: 3.875em;
+	line-height: 100%;
+}
+
+h3 {
+	padding: 0px;
+	margin: 0px;
+	color: #C6C6C6;
+	font-family:'Blue Highway D Type';
+		font-weight:normal;
+		font-size: 1.5em;
+	line-height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+	
+#tagline {
+	max-width: 80%;
+	padding-top: 60px;
+	text-align: center;
+	margin: auto;
+}
+
+#learnmore {
+	text-align: center;
+	margin: auto;
+	margin-top: 60px;
+}
+form {
+margin:0;
+padding:0;
+}
+	#formwrapper {
+		padding: 0px;
+		margin-left: 20px;
+		display:inline-block;
+		vertical-align: middle;
+	}
+		input[type="text"]{
+			padding: 0px;
+			background-color: transparent;
+
+			border: 2px solid #C6C6C6;
+			height: 36px;
+			line-height: 35px;
+			width:300px;
+			padding-left: 15px;
+			text-overflow: visible;
+			
+			color: #C6C6C6;
+			font-family:'Blue Highway D Type';
+			font-weight:heavy;
+			font-size: 1.375em;  								/* FONT SIZE DEFINED FOR INPUT */
+			
+			
+			outline: none;
+			-webkit-box-shadow: none;
+			-moz-box-shadow: none;
+			box-shadow: none;
+			
+		}
+		::-webkit-input-placeholder {
+			color: #6B6B6B;
+			font-family:'Blue Highway D Type';
+			font-weight:heavy;
+			font-size: 1.3em;									/* FONT SIZE DEFINED FOR INPUT */
+		}
+		:-moz-placeholder { /* Firefox 18- */
+			color: #6B6B6B;
+			font-family:'Blue Highway D Type';
+			font-weight:heavy;
+			font-size: 1.3em;									/* FONT SIZE DEFINED FOR INPUT */
+ 
+		}
+		::-moz-placeholder {  /* Firefox 19+ */
+			color: #6B6B6B;
+			font-family:'Blue Highway D Type';
+			font-weight:heavy;
+			font-size: 1.3em;									/* FONT SIZE DEFINED FOR INPUT */
+  
+		}
+		:-ms-input-placeholder {  
+			color: #6B6B6B;
+			font-family:'Blue Highway D Type';
+			font-weight:heavy;
+			font-size: 1.3em;									/* FONT SIZE DEFINED FOR INPUT */
+		}
+		input[type="submit"]{
+			padding: 0px;
+			background-color: transparent;
+			border: 2px solid #C6C6C6;
+			height: 36px;
+			text-align: center;
+			line-height: 12px;
+			width:36px;
+			margin-left: 3px;
+			
+			color: #C6C6C6;
+			font-family:'Blue Highway D Type';
+			font-weight:heavy;
+			font-size: 1.375em;									/* FONT SIZE DEFINED FOR SUBMIT */		
+			
+			outline: none;
+			-webkit-box-shadow: none;
+			-moz-box-shadow: none;
+			box-shadow: none;
+		}
+		input[type="submit"]:hover {
+			background: rgba(255, 255, 255, .3);
+			cursor: pointer;
+		}

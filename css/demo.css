@@ -1,0 +1,88 @@
+html, body {
+	font-size: 16px;
+}
+form {
+	margin: 0;
+	padding: 0;
+}
+#content {
+	max-width: 70%;
+	margin: auto;
+	border: 1px solid #000;
+	padding: 20px;
+	text-align: center;
+}
+
+#big-box {
+	border: 1px solid #000;
+	width: 100%;
+}
+
+input[type="text"]{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	-khtml-border-radius: 5px;
+	background-color: transparent;
+	border: 2px solid #C6C6C6;
+	height: 36px;
+	
+	margin:2px;
+	padding-left: 15px;
+	text-overflow: visible;
+	
+	font-size: 24px;
+	
+	color: #000;
+	font-family:'Blue Highway D Type';
+	font-weight:heavy;							/* FONT SIZE DEFINED FOR INPUT */
+	
+	outline: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+	input[type=text]:focus, textarea:focus {
+		box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+		border: 2px solid rgba(81, 203, 238, 1);*/
+	}
+
+input[type="checkbox"]{
+	display:none;
+}
+input[type="checkbox"] + label span{
+	display:inline-block;
+	width: 22px;
+	height: 22px;
+	margin:1px;
+	vertical-align: middle;
+	background:url(images/checksheet.jpg) left no-repeat;
+	cursor: pointer;
+}
+input[type="checkbox"]:checked + label span{
+	background:url(images/checksheet.jpg) right no-repeat;
+}
+h7{
+	padding: 0px;
+	margin: 0px;
+	color: #282828;
+	font-family:'Blue Highway D Type';
+		font-weight:normal;
+		font-size: 22px;
+	padding-left: 2px;
+	line-height: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+	.checkbox-wrap1{
+		margin: 0; padding: 0;
+		padding-right:30px;
+		display:inline-block;
+		border: 0; outline: 0
+	}
+	
+
+.uc {
+	text-transform: uppercase;
+}
+

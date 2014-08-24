@@ -1,0 +1,57 @@
+
+
+
+
+
+
+
+#bannerimg {
+	width: 100%;
+	background: url(images/bg-top2.jpg) no-repeat;
+	position: absolute;
+	top: 0; left: 0;
+	height: 200px;
+	display: block;
+	z-index: -1;
+}
+
+#bannercontent {
+	float: left;
+	padding-left: 20%;
+	padding-top: 10px;
+	display:inline-block;
+	vertical-align: middle;
+}
+#bannernav {
+	float:right;
+	padding-top: 70px;
+	padding-right: 15%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+h1 {
+	padding: 0px;
+	margin: 0px;
+	color: #fff;
+	font-family:'Blue Highway D Type';
+		font-weight:normal;
+		font-size: 50px;
+	line-height: 90%;
+}
+h2 {
+	padding: 0px;
+	margin: 0px;
+	color: #fff;
+	display: inline-block;
+	font-family:'Blue Highway D Type';
+		font-weight:normal;
+		font-size: 30px;
+	line-height: 100%;
+}
+	.spacer {
+		padding-right: 20px;
+	}
+	.uc {
+		text-transform:uppercase;
+	}

@@ -1,0 +1,38 @@
+@font-face {
+font-family: 'Blue Highway D Type';
+font-style: normal;
+font-weight: normal;
+src: local('Blue Highway D Type'), url('font/BLUEHIGD.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Blue Highway Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Blue Highway Condensed'), url('font/bluecond.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Blue Highway';
+font-style: normal;
+font-weight: normal;
+src: local('Blue Highway'), url('font/bluehigh.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Blue Highway Linocut';
+font-style: normal;
+font-weight: normal;
+src: local('Blue Highway Linocut'), url('font/bluehigl.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Blue Highway Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Blue Highway Bold'), url('font/bluebold.woff') format('woff');
+}
